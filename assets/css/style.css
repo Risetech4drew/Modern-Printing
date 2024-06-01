@@ -35,20 +35,6 @@ p {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-/* editting spans */
-.the__h1 {
-  /* border: 2px solid orangered; */
-  padding: 0.5em;
-}
-
-/* media query for spans in mobile view  */
-/* @media screen (min-width:){
-
-} */
-
-/* end of media query within editting spans */
-
-/* end of editting spans */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -361,7 +347,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #ff5821;
+  color: #16c172;
 }
 
 .navbar-mobile .getstarted,
@@ -480,7 +466,7 @@ p {
   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#hero .btn-get-started {
+/* #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -498,7 +484,7 @@ p {
 
 #hero .btn-get-started:hover {
   background: #ff5821;
-}
+} */
 
 @media (min-width: 1024px) {
   #hero {
@@ -530,7 +516,7 @@ p {
   }
 }
 .accent {
-  color: #ff5821;
+  color: #e4cc37;
 }
 /* @media (max-width: 640px) {
   .
@@ -551,7 +537,7 @@ section {
 }
 
 .section-bg {
-  background-color: #313030;
+  background-color: #00a7e1;
 }
 /* #fff9f7 */
 .section-title {
@@ -619,13 +605,13 @@ section {
 .why-us .content {
   padding: 30px;
   background: #fff;
-  border-bottom: 5px solid #ff5821;
+  border-bottom: 5px solid #16c172;
 }
 
 .why-us .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #003f88;
+  color: #16c172;
   margin-bottom: 30px;
 }
 
@@ -634,23 +620,23 @@ section {
   font-size: 1.125rem;
 }
 
-.why-us .content .more-btn {
+/* .why-us .content .more-btn {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
   color: #fff;
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
-}
+} */
 
-.why-us .content .more-btn i {
+/* .why-us .content .more-btn i {
   font-size: 14px;
 }
 
 .why-us .content .more-btn:hover {
   color: #ff5821;
   background: #fff;
-}
+} */
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
@@ -663,7 +649,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #ff5821;
+  color: #16c172;
   margin-bottom: 30px;
 }
 
