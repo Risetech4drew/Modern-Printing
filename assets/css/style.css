@@ -681,7 +681,7 @@ section {
   font-weight: 900;
   color: #023e8a;
   margin-bottom: 15px;
-  text-decoration: coral wavy underline;
+  /* text-decoration: coral wavy underline; */
 }
 
 .about .icon-boxes h3 {
@@ -753,11 +753,8 @@ section {
   }
 }
 
-.why-us-col-1 {
-  border: 2px solid green;
-}
-.why-us-col-2 {
-  border: 2px solid red;
+.about .arrow-wrapper {
+  border: 2px solid blue;
 }
 /* .about .video-box {
   background: url("../img/about-img.jpg") center center no-repeat;
