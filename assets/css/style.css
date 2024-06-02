@@ -32,6 +32,12 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+/* .text-blue {
+  color: #023e8a;
+}
+.text-green {
+  color: #18d26e;
+} */
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -536,9 +542,9 @@ section {
   overflow: hidden;
 }
 
-/* .section-bg {
-  background-color: ;
-} */
+.section-bg {
+  background-color: #023e8a;
+}
 /* #fff9f7 */
 .section-title {
   text-align: center;
@@ -667,10 +673,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about__img {
+  border: 5px solid #e4cc37;
+}
 .about .icon-boxes h4 {
   font-size: 40px;
   font-weight: 900;
-  color: #ff5821;
+  color: #023e8a;
   margin-bottom: 15px;
 }
 
