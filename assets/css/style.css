@@ -693,10 +693,10 @@ section {
 
 .about .icon-box {
   margin-top: 40px;
+  background: #fff9f7;
 }
 
 .about .icon-box .icon {
-  float: left;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -709,13 +709,13 @@ section {
 }
 
 .about .icon-box .icon i {
-  color: #ff5821;
+  color: coral;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #ff5821;
-  border-color: #ff5821;
+  background: coral;
+  border-color: coral;
 }
 
 .about .icon-box:hover .icon i {
@@ -723,14 +723,15 @@ section {
 }
 
 .about .icon-box .title {
-  margin-left: 85px;
+  /* margin-left: 85px; */
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+  text-align: center;
 }
 
-.about .icon-box .title a {
-  color: #343a40;
+.about .icon-box .title {
+  color: #18d26e;
   transition: 0.3s;
 }
 
