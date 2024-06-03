@@ -51,9 +51,6 @@ function initTypeWritter() {
   const wait = textElement.getAttribute("data-wait");
 
   new TypeWritter(textElement, words, wait);
-  console.log(textElement);
-  console.log(wait);
-  console.log(words);
 }
 
 (function () {
@@ -233,7 +230,7 @@ function initTypeWritter() {
   /**
    * Clients Slider
    */
-  new Swiper(".clients-slider", {
+  new Swiper(".values-slider", {
     speed: 400,
     loop: true,
     autoplay: {

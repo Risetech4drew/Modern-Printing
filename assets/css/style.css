@@ -845,31 +845,41 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients .swiper-pagination {
+.values__heading {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  color: #18d26e;
+}
+.slide__title {
+  font-weight: 500;
+}
+.values .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet {
+.values .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff5821;
+  border: 1px solid #18d26e;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff5821;
+.values .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
 }
 
-.clients .swiper-slide img {
-  opacity: 0.5;
+.values .swiper-slide i {
+  font-size: 50px;
   filter: grayscale(100%);
 }
 
-.clients .swiper-slide img:hover {
+.values .swiper-slide i:hover {
   filter: none;
-  opacity: 1;
+  opacity: 0.75;
 }
 
 /*--------------------------------------------------------------
