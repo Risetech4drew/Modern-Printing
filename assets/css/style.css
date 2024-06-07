@@ -843,7 +843,7 @@ section {
 } */
 
 /*--------------------------------------------------------------
-# Clients
+# values styling
 --------------------------------------------------------------*/
 .values__heading {
   text-align: center;
@@ -883,9 +883,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+end of values styling
 --------------------------------------------------------------*/
-.services__intro {
+/* .services__intro {
   color: #fff;
 }
 .services .icon-box {
@@ -949,46 +949,66 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 14px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
-.values .card {
+.section-title {
+  /* background: #fff9f7; */
+  /* width: 55%; */
+}
+/* .services {
+  background-image: url("/assets/img/yellow.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.services .card {
   border: 0;
-  padding: 160px 20px 20px 20px;
-  position: relative;
-  width: 100%;
+  width: 250px;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  padding: 130px 10px 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.section-title h3 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #023e8a;
+}
+.section-title p {
+  font-size: 21px;
+  line-height: 40px;
+}
+.services .card p {
+  color: black;
+  font-weight: 500;
 }
 
-.values .card-body {
-  z-index: 10;
+.services .card-body {
   background: rgba(255, 255, 255, 0.9);
-  padding: 15px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
   transition: ease-in-out 0.4s;
   border-radius: 5px;
 }
 
-.values .card-title {
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 15px;
+.services .card-title {
+  font-weight: 500;
 }
 
-.values .card-title a {
+.services .card-title a {
   color: #473d3a;
 }
 
-.values .card-text {
+.services .card-text {
   color: #4b4949;
 }
 
-.values .read-more a {
+.services .read-more a {
   color: #656262;
   text-transform: uppercase;
   font-weight: 600;
@@ -996,18 +1016,18 @@ section {
   transition: 0.4s;
 }
 
-.values .read-more a:hover {
+.services .read-more a:hover {
   text-decoration: underline;
 }
 
-.values .card:hover .card-body {
+.services .card:hover .card-body {
   background: #ff5821;
 }
 
-.values .card:hover .read-more a,
-.values .card:hover .card-title,
-.values .card:hover .card-title a,
-.values .card:hover .card-text {
+.services .card:hover .read-more a,
+.services .card:hover .card-title,
+.services .card:hover .card-title a,
+.services .card:hover .card-text {
   color: #fff;
 }
 

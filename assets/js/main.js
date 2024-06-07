@@ -228,7 +228,7 @@ function initTypeWritter() {
   });
 
   /**
-   * Clients Slider
+   * values Slider
    */
   new Swiper(".values-slider", {
     speed: 400,
