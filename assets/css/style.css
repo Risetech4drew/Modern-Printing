@@ -984,6 +984,7 @@ end of values styling
   font-size: 1.25rem;
   /* line-height: 40px; */
 }
+
 .services .card p {
   color: black;
   font-weight: 500;
@@ -1021,7 +1022,7 @@ end of values styling
 }
 
 .services .card:hover .card-body {
-  background: #ff5821;
+  background: #023e8a;
 }
 
 .services .card:hover .read-more a,
