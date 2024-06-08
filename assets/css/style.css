@@ -541,6 +541,14 @@ section {
   padding: 60px 0;
   overflow: hidden;
 }
+.parallax {
+  background-image: url(/assets/img/people.jpeg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .section-bg {
   background-color: #023e8a;
