@@ -745,7 +745,8 @@ section {
   font-size: 14px;
 }
 .about__right-col {
-  background: #fff9f7;
+  /* background: #fff9f7; */
+  background: #fff;
   /* margin-left: -75px; */
 }
 @media (min-width: 62.25rem) {
