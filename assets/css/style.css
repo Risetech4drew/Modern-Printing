@@ -1517,10 +1517,10 @@ end of values styling
   padding: 0;
   list-style: none;
 }
-
+/* 
 .faq .faq-list li + li {
   margin-top: 15px;
-}
+} */
 
 .faq .faq-list li {
   padding: 20px;
@@ -1529,8 +1529,28 @@ end of values styling
   position: relative;
 }
 
+/* .accordion-item + .accordion-item {
+  margin-top: 10px;
+} */
+.accordion-header {
+  font-size: 2rem;
+}
+.accordion-item {
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.125);
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: #fff;
+}
+
 .faq .faq-list a {
-  display: block;
+  display: inline-block;
   position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
