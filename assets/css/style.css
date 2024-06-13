@@ -58,6 +58,9 @@ h6,
 p {
   font-family: "Raleway", sans-serif;
 }
+p {
+  font-size: clamp(1rem, calc(1rem + 8 * ((100vw - 320px) / 680)), 1.5rem);
+}
 
 /* .text-blue {
   color: #023e8a;
