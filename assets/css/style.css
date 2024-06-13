@@ -551,7 +551,7 @@ p {
 .hero__contact-btn:active {
   transform: scale(0.9);
 }
-. @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
