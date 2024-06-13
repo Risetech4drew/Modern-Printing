@@ -649,7 +649,7 @@ section {
 
 .why-us .content h2 {
   font-weight: 700;
-  font-size: clamp(1rem, 0.75rem + 2vw, 8rem);
+  font-size: clamp(2rem, 0.75rem + 1.5vw, 5rem);
   color: #16c172;
   margin-bottom: 30px;
 }
