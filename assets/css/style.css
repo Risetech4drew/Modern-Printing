@@ -502,27 +502,56 @@ p {
   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
 } */
 
-/* #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 1px;
+.hero__contact-btn {
+  width: 250px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   display: inline-block;
-  transition: 0.5s;
-  margin-left: -10px;
-  padding: 8px 26px 8px 26px;
-  color: #fff;
-  background: #584b48;
-  border-radius: 0 50px 50px 0;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.7em 2em;
+  border: 2px solid #16c172;
+  border-radius: 2px;
   position: relative;
-  z-index: 4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
 }
 
-#hero .btn-get-started:hover {
-  background: #ff5821;
-} */
+.hero__contact-btn:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #18d26e;
+  z-index: -1;
+}
 
-@media (min-width: 1024px) {
+.hero__contact-btn:hover,
+.hero__contact-btn:focus {
+  color: white;
+}
+
+.hero__contact-btn:hover:before,
+.hero__contact-btn:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.hero__contact-btn:active {
+  transform: scale(0.9);
+}
+. @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
