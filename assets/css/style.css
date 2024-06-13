@@ -503,8 +503,8 @@ p {
 } */
 
 .hero__contact-btn {
-  width: 250px;
-  font-size: 18px;
+  width: 210px;
+  font-size: clamp(1rem, calc(1rem + 8 * ((100vw - 320px) / 680)), 1.125rem);
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
@@ -513,7 +513,6 @@ p {
   font-weight: 500;
   padding: 0.7em 2em;
   border: 2px solid #16c172;
-  border-radius: 2px;
   position: relative;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   color: #fff;
