@@ -109,6 +109,15 @@ p {
     transition-delay: 0 !important;
   }
 }
+/* disable parallax scrolling
+********************************************
+ */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/* ******************* */
 
 /*--------------------------------------------------------------
 # Top Bar
