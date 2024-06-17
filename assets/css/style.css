@@ -512,7 +512,7 @@ p {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  /* padding: 0px 0; */
+  padding: clamp(2rem, 2vw, 5rem) 0;
   overflow: hidden;
 }
 .parallax {
