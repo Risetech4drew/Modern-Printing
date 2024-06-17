@@ -512,7 +512,7 @@ p {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  /* padding: 0px 0; */
   overflow: hidden;
 }
 .parallax {
@@ -724,19 +724,9 @@ section {
   /* font-size: 14px; */
 }
 .about__right-col {
-  /* background: #fff9f7; */
   background: #fff;
-  /* margin-left: -75px; */
-}
-@media (min-width: 62.25rem) {
-  .about__right-col {
-    /* margin-left: -4.6875em; */
-  }
 }
 
-.about .arrow-wrapper {
-  border: 2px solid blue;
-}
 /* .about .video-box {
   background: url("../img/about-img.jpg") center center no-repeat;
   background-size: cover;
