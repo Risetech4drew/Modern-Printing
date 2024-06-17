@@ -545,6 +545,18 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+/* call to action styles */
+.call-to-action-section {
+  background: #023e8a;
+  color: #fff;
+  text-align: center;
+}
+.call-to-action-section p {
+  font-size: clamp(1.5rem, 0.75rem + 1.5vw, 3rem);
+  font-weight: 500;
+  line-height: 2;
+}
+/* end of call to action styles */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
