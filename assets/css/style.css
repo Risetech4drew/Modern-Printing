@@ -58,9 +58,9 @@ h6,
 p {
   font-family: "Raleway", sans-serif;
 }
-p {
+/* p {
   font-size: clamp(1.3125rem, 0.75rem + 1.5vw, 1.75rem);
-}
+} */
 
 /* .text-blue {
   color: #023e8a;
@@ -112,7 +112,7 @@ p {
 /* disable parallax scrolling
 ********************************************
  */
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1366px) {
   .parallax {
     background-attachment: scroll;
   }
@@ -934,10 +934,7 @@ end of values styling
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
-.section-title {
-  /* background: #fff9f7; */
-  /* width: 55%; */
-}
+
 /* .services {
   background-image: url("/assets/img/yellow.jpeg");
   background-position: center center;
@@ -951,7 +948,10 @@ end of values styling
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 130px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* padding: 150px 10px 10px; */
 }
 .services .cards__container {
   margin-top: 32px;
@@ -971,7 +971,11 @@ end of values styling
 
 .services .card p {
   color: black;
+
   /* font-weight: 500; */
+}
+.services .card-title {
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
 }
 
 .services .card-body {
@@ -979,6 +983,7 @@ end of values styling
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: ease-in-out 0.4s;
   border-radius: 5px;
+  height: fit-content;
 }
 
 .services .card-title {
@@ -991,6 +996,12 @@ end of values styling
 
 .services .card-text {
   color: #4b4949;
+  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.3125rem);
+}
+.services .read-more {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .services .read-more a {
@@ -999,6 +1010,7 @@ end of values styling
   font-weight: 600;
   font-size: 12px;
   transition: 0.4s;
+  /* margin-left: 0.9375em; */
 }
 
 .services .read-more a:hover {
@@ -1012,7 +1024,8 @@ end of values styling
 .services .card:hover .read-more a,
 .services .card:hover .card-title,
 .services .card:hover .card-title a,
-.services .card:hover .card-text {
+.services .card:hover .card-text,
+.services .card:hover .bi-arrow-right {
   color: #fff;
 }
 
