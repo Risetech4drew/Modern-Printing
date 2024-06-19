@@ -599,7 +599,7 @@ section {
 
 .why-us .content p {
   /* margin-bottom: 30px; */
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 0.75rem + 1.5vw, 1.65rem);
   line-height: 1.5;
 }
 
@@ -653,7 +653,7 @@ section {
   /* text-decoration: coral wavy underline; */
 }
 .about__right-col p {
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.25rem);
+  font-size: clamp(1.3125rem, 0.75rem + 1.5vw, 1.5rem);
 }
 
 .about .icon-boxes h3 {
@@ -947,7 +947,7 @@ end of values styling
   color: #023e8a;
 }
 .section-title p {
-  font-size: clamp(1rem, 0.75rem + 1.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 0.75rem + 1.5vw, 1.75rem);
   line-height: 1.5;
   margin: 0 0 clamp(1rem, 0.75rem + 1.5vw, 1.875rem) 0;
 }
